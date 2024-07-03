@@ -71,26 +71,34 @@ main{
     background-color: white;
     padding: 17px;
     margin-top: 5px;
-    border-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
     text-align: justify;
 
 }
 
 main h1{
-     color: black;
+     color: darkblue;
      text-indent: 3px;
      margin-top: 10px;
+     font-size: 2.6em;
 }
+
+main h2{
+     color: blue;
+    margin: 8px;
+    font-size: 1.9em;
+    padding-top: 4px;
+}
+
 
 main p{
     padding-top: 10px;
     text-indent: 12px;
+    line-height: 1.3em;
+    font-size: 1.1em;
 }
 
-main h2{
-    margin: 8px;
-    padding-top: 4px;
-}
 
 img{
     margin: auto;
@@ -104,6 +112,14 @@ footer{
     text-align: center;  
     font-size: 1.1em;
     color: white;
+    background-color: black;
+    max-width:  900px;
+    min-width: 260px;
+    margin: auto;
+    padding-left: 17px ;
+    padding-right: 17px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
 footer a{
@@ -115,5 +131,6 @@ footer a{
 
 footer a:hover{
     text-decoration: underline;
-    font-weight: bold;
+
+
 }
