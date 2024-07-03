@@ -116,6 +116,10 @@ img{
    
 }
 
+#logo{
+    width: 65%;
+}
+
 footer{
     text-align: center;  
     font-size: 1.1em;
