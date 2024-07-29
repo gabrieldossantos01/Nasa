@@ -16,7 +16,7 @@
         <span id="nav" class="material-symbols-outlined" onclick="clickMenu()">
             menu
             </span>
-        <menu>
+        <menu id="itens">
             <a href="principal.html" target="_self">inicio</a>
             <a href="https://www.nasa.gov/" target="_blank">Nasa</a>
         </menu>
@@ -51,5 +51,16 @@
     <footer>
         <p>feito por <a href="https://github.com/gabrieldossantos01" target="_blank">gabriel</a></p>
     </footer>
+
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'none') {
+                itens.style.display = 'block'
+            } else{
+                itens.style.display = 'none'
+            }
+        }
+
+    </script>
 </body>
 </html>

@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:600px) {
     #nav{
         display: block;
         text-align: center;
@@ -12,16 +12,19 @@
         display: block;
         background-color: #00529a;
         border: 1px solid rgb(90, 90, 90);
-        padding: 5pxpx;
+       
         margin: 0px;
         text-align: center;
 
     }
-
+    .material-symbols-outlined{
+        cursor: pointer;
+        }
    
 
     main{
-        margin-top: 0px;
+        
+        margin-top: -5px;
         border-top-left-radius: 0px;
         border-top-right-radius: 0px;
     }

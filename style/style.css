@@ -31,6 +31,9 @@ header{
     display: none;
 }
 
+menu{
+    padding-bottom: 5px;
+}
 
 header h1{
     text-align: center;
