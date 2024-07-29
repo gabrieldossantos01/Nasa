@@ -26,7 +26,10 @@ header{
 
 
 }
-    
+
+#nav{
+    display: none;
+}
 
 
 header h1{
@@ -47,11 +50,7 @@ header p{
    
 }
 
-nav{
-  padding-left: 10px;
-  padding-bottom: 5px;
-  padding: 8px;
-}
+
 
  header a{
    text-decoration: none;

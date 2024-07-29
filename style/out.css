@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+@media screen and (max-width:768px) {
+    #nav{
+        display: block;
+        text-align: center;
+        padding: 07px;
+        background-color: #003d73;
+    }
+
+    menu a{
+        display: block;
+        background-color: #00529a;
+        border: 1px solid rgb(90, 90, 90);
+        padding: 5pxpx;
+        margin: 0px;
+        text-align: center;
+
+    }
+
+   
+
+    main{
+        margin-top: 0px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+
+    footer{
+        padding: 7px;
+        border-radius: 0px;
+    }
+
+}
