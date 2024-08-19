@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
 @media screen and (max-width:600px) {
+    
+   
+
+
     #nav{
         display: block;
         text-align: center;
